@@ -1,0 +1,4 @@
+python -m pip install scikit-learn==1.0.2
+python -m pip install pysurvival==0.2.1
+python -m pip install pyarrow==8.0.0
+python -m pip install plotly==5.15.0
