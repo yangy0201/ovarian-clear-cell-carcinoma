@@ -216,3 +216,6 @@ with st.sidebar:
                 on_click=predict,
                 # args=[{key: eval(key.replace(' ', '____')) for key in input_keys}]
             )
+
+
+# this is test
