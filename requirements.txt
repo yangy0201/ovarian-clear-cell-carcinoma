@@ -1,3 +1,4 @@
+/home/appuser/venv/bin/python -m pip install --upgrade pip
 python -m pip install scikit-learn==1.0.2
 python -m pip install pysurvival==0.2.1
 python -m pip install pyarrow==8.0.0
