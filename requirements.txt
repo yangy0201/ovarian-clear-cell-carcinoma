@@ -3,4 +3,4 @@ scikit-learn==1.0.2
 pandas>1.0
 plotly==5.15.0
 pysurvival==0.1.2
-pyarrow==12.0.1
+
