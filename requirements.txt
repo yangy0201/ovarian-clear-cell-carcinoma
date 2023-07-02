@@ -1,5 +1,4 @@
-pip install --upgrade pip
-pip install scikit-learn==1.0.2
-pip install pysurvival==0.2.1
-pip install pyarrow==8.0.0
-pip install plotly==5.15.0
+streamlit==1.8.1
+pandas>1.0
+plotly==5.7.0
+pysurvival==0.1.2
