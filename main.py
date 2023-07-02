@@ -6,7 +6,7 @@ from pysurvival.utils import load_model
 
 st.set_page_config(layout="wide")
 
-@st.cache(show_spinner=False)
+@st.cache_resource
 def load_setting():
     settings = {
         'Age': {'values': ["<50", "50-60", ">60"], 'type': 'selectbox', 'init_value': 1, 'add_after': ', year'},
@@ -32,7 +32,7 @@ def load_setting():
 settings, input_keys = load_setting()
 
 
-@st.cache(show_spinner=False)
+@st.cache_resource
 def get_model(name='DeepSurv'):
     model = load_model('{}.zip'.format(name))
     return model
